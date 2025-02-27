@@ -6,7 +6,7 @@ Este repositório contém scripts em **R** para análise de conjuntura econômic
 
 -   `dados/` → Bases de dados utilizadas
 -   `scripts/` → Códigos para análise
--   `output/` → Gráficos e relatórios
+-   `saídas/` → Gráficos e relatórios
 
 ## Principais Análises
 
