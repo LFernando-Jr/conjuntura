@@ -110,7 +110,7 @@ for (i in contrib) {
          height = 2160,
          units  = "px",
          dpi    = 576,
-         path   = paste0(getwd(), "/saídas/ipca-15/contribuição"))
+         path   = paste0(getwd(), "/saidas/ipca-15/contribuição"))
   
   m = m + 1
   
@@ -170,7 +170,7 @@ for (i in unique(data$name[which(data$classificacao %in% c("Geral",
          height = 2160,
          units  = "px",
          dpi    = 576,
-         path   = paste0(getwd(), "/saídas/ipca-15/médias móveis"))
+         path   = paste0(getwd(), "/saidas/ipca-15/médias móveis"))
   
 }
 
@@ -245,7 +245,7 @@ for (i in unique(data$name[which(data$classificacao %in% c("Geral",
          height = 2160,
          units  = "px",
          dpi    = 576,
-         path   = paste0(getwd(), "/saídas/ipca-15/sazonalidade"))
+         path   = paste0(getwd(), "/saidas/ipca-15/sazonalidade"))
   
 }
 
@@ -283,6 +283,6 @@ for (i in unique(data$name[which(data$classificacao == "Grupo")])) {
          height = 2160,
          units  = "px",
          dpi    = 576,
-         path   = paste0(getwd(), "/saídas/ipca-15/itens e subitens"))
+         path   = paste0(getwd(), "/saidas/ipca-15/itens e subitens"))
   
 }

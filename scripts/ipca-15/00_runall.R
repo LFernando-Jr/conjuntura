@@ -1,17 +1,12 @@
 
-scripts = c(
-  "01_coleta.R",
-  "02_grupos.R",
-  "03_aberturas_bc.R",
-  "04_alimentos.R",
-  "05_servicos.R",
-  "06_servicos_rti.R",
-  "07_industriais.R",
-  "08_tradables.R"
-  )
+rm(list = ls())
 
-for (i in scripts) {
-  
-  source(paste0("scripts/ipca-15/", i), encoding = "UTF-8")
-  
-}
+source("scripts/ipca-15/01_coleta.R",       encoding = "UTF-8")
+source("scripts/ipca-15/02_grupos.R",       encoding = "UTF-8")
+source("scripts/ipca-15/03_aberturas_bc.R", encoding = "UTF-8")
+source("scripts/ipca-15/04_alimentos.R",    encoding = "UTF-8")
+source("scripts/ipca-15/05_servicos.R",     encoding = "UTF-8")
+source("scripts/ipca-15/06_servicos_rti.R", encoding = "UTF-8")
+source("scripts/ipca-15/07_industriais.R",  encoding = "UTF-8")
+source("scripts/ipca-15/08_tradables.R",    encoding = "UTF-8")
+   

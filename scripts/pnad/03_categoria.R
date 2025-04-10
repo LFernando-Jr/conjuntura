@@ -35,4 +35,4 @@ ggsave("categoria.png",
        height = 2160,
        units  = "px",
        dpi    = 576,
-       path   = paste0(getwd(), "/saídas/pnad"))
+       path   = paste0(getwd(), "/saidas/pnad"))

@@ -86,7 +86,7 @@ for (i in var) {
          height = 2160,
          units  = "px",
          dpi    = 576,
-         path   = paste0(getwd(), "/saídas/ipca-15/itens e subitens"))
+         path   = paste0(getwd(), "/saidas/ipca-15/itens e subitens"))
   
 }
 
@@ -133,7 +133,7 @@ for (i in unique(data$industriais)) {
          height = 2160,
          units  = "px",
          dpi    = 576,
-         path   = paste0(getwd(), "/saídas/ipca-15/médias móveis"))
+         path   = paste0(getwd(), "/saidas/ipca-15/médias móveis"))
   
 }
 
@@ -197,6 +197,6 @@ for (i in unique(data$industriais)) {
          height = 2160,
          units  = "px",
          dpi    = 576,
-         path   = paste0(getwd(), "/saídas/ipca-15/sazonalidade"))
+         path   = paste0(getwd(), "/saidas/ipca-15/sazonalidade"))
   
 }

@@ -53,7 +53,7 @@ ggsave("desocupacao.png",
        height = 2160,
        units  = "px",
        dpi    = 576,
-       path   = paste0(getwd(), "/saídas/pnad"))
+       path   = paste0(getwd(), "/saidas/pnad"))
 
 
 # Participação ------------------------------------------------------------
@@ -82,7 +82,7 @@ ggsave("participacao.png",
        height = 2160,
        units  = "px",
        dpi    = 576,
-       path   = paste0(getwd(), "/saídas/pnad"))
+       path   = paste0(getwd(), "/saidas/pnad"))
 
 # Combo -------------------------------------------------------------------
 
@@ -115,4 +115,4 @@ ggsave("combo.png",
        height = 2160,
        units  = "px",
        dpi    = 576,
-       path   = paste0(getwd(), "/saídas/pnad"))
+       path   = paste0(getwd(), "/saidas/pnad"))

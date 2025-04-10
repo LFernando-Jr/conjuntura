@@ -106,7 +106,7 @@ for (i in contrib) {
          height = 2160,
          units  = "px",
          dpi    = 576,
-         path   = paste0(getwd(), "/saídas/ipca/contribuição"))
+         path   = paste0(getwd(), "/saidas/ipca/contribuição"))
   
   m = m + 1
   
@@ -155,7 +155,7 @@ for (i in unique(data$tradables)) {
          height = 2160,
          units  = "px",
          dpi    = 576,
-         path   = paste0(getwd(), "/saídas/ipca/médias móveis"))
+         path   = paste0(getwd(), "/saidas/ipca/médias móveis"))
   
   }
 
@@ -214,11 +214,11 @@ for (i in unique(data$tradables)) {
   print(g)
   print(i)
   
-  ggsave(paste0(i,"_tradables_bcb_sazonal.png"),
+  ggsave(paste0(i,"_tradables_sazonal.png"),
          width  = 4800,
          height = 2160,
          units  = "px",
          dpi    = 576,
-         path   = paste0(getwd(), "/saídas/ipca/sazonalidade"))  
+         path   = paste0(getwd(), "/saidas/ipca/sazonalidade"))  
   
   }

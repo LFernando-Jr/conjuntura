@@ -86,7 +86,7 @@ for (i in var) {
          height = 2160,
          units  = "px",
          dpi    = 576,
-         path   = paste0(getwd(), "/saídas/ipca/itens e subitens"))
+         path   = paste0(getwd(), "/saidas/ipca/itens e subitens"))
   
 }
 
@@ -133,7 +133,7 @@ for (i in unique(data$servicos_rti)) {
          height = 2160,
          units  = "px",
          dpi    = 576,
-         path   = paste0(getwd(), "/saídas/ipca/médias móveis"))
+         path   = paste0(getwd(), "/saidas/ipca/médias móveis"))
   
 }
 
@@ -197,6 +197,6 @@ for (i in unique(data$servicos_rti)) {
          height = 2160,
          units  = "px",
          dpi    = 576,
-         path   = paste0(getwd(), "/saídas/ipca/sazonalidade"))
+         path   = paste0(getwd(), "/saidas/ipca/sazonalidade"))
   
 }
